@@ -1,0 +1,55 @@
+/* Selector de etiqueta: 
+ Vamos a seleccionar el elemento por su nombre y va a cambiar a todos los que se llamen igual*/
+
+body {
+    font-family: Arial;
+    background-color: rgb(184, 184, 148);
+
+}
+
+h3 {
+    color: rgb(243, 250, 224);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+
+/* Selector de clase: 
+Eligiendo el nombre de la clase, le vamos a poner las etiquetas por medio del atributo class="nombre-clase" 
+Cambiando las propiedades del elemento llamándolos por el operador (símbolo) punto */
+
+.curiosidad{ 
+    border-style: solid;
+    border-color: rgb(81, 85, 77);
+    border-width: 10px;
+}
+
+.texto-centrado{
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(224, 239, 208);
+}
+
+.img-centrada{
+    text-align: center;
+
+}
+
+
+/* Selector de ID: 
+Ayuda a editar a un elemento a la vez, para cuando solo queremos hacer cambios a un elemento.
+Va a cambiar la etiqueta con el atributo
+
+id="nombre-id"
+
+Y llamaremos al elemento por el operador de numeral 
+
+#nombre-id
+
+ */
+
+
+
+
+
+
